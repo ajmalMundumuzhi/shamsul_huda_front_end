@@ -7,7 +7,7 @@ export function Header() {
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex-shrink-0">
-              <img className="h-10" src='/images/logo.png' alt="Logo" />
+              <img className="h-10" src='/public/images/logo.png' alt="Logo" />
             </div>
 
             {/* Navbar */}

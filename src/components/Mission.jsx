@@ -12,7 +12,7 @@ export default function Mission () {
       />
       <div className="flex flex-col justify-between p-6 leading-normal w-full md:w-2/3">
         <h5 className="mb-2 text-5xl md:text-8xl font-bold tracking-tight text-black">
-          MISSION
+          MISSION 
         </h5>
         <p className="mb-3 text-base font-normal text-gray-700">
         to develop an innovative system of islamic education capable at grooming a group of 'ulema' who can spread the message of islam throughout the world.
