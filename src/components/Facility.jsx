@@ -10,7 +10,7 @@ export default function Facility (props) {
     />
   </div>
   <div class="p-6">
-    <div class="mb-4 rounded-full bg-teal-600 py-0.5 px-2.5 border border-transparent text-xs text-white transition-all shadow-sm w-20 text-center">STARTUP</div>
+    <div class="mb-4 rounded-full bg-teal-600 py-0.5 px-2.5 border border-transparent text-xs text-white transition-all shadow-sm w-20 text-center">Facility</div>
     <h4 class="mb-5 mt-12 text-slate-950 text-4xl">
       {props?.title}
     </h4>

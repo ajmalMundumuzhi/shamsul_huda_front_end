@@ -47,34 +47,48 @@ export default function Counter() {
 
   return (
     <>
+<div className="h-auto md:h-screen">
+  {/* Facilities Heading */}
+  <h1 id="counter" className="font-bold  text-center text-4xl md:text-5xl lg:text-7xl text-amber-500 mb-6 md:mb-10">
+    FACILITIES
+  </h1>
 
-    <h1 id="counter" className="font-bold text-center text-5xl md:text-9xl text-amber-500 mb-10">FACILITIES</h1>
-      <div ref={sectionRef} className="flex flex-wrap justify-center md:justify-between gap-4 p-4">
-        
-        <div className="w-full md:w-[48%] p-6 border border-gray-300 rounded-[3rem] text-center mb-2">
-          <h1 className="text-5xl font-bold">{count[0]}+</h1>
-          <p className="text-4xl font-semibold">Faculties</p>
-        </div>
-        <div  className="w-full md:w-[48%] p-6 border border-gray-300 rounded-[3rem] text-center mb-2">
-          <h1 className="text-5xl font-bold">{count[1]}+</h1>
-          <p className="text-4xl font-semibold">Students</p>
-        </div>
-        <div className="w-full md:w-[48%] p-6 border border-gray-300 rounded-[3rem] text-center mb-2">
-          <h1 className="text-5xl font-bold">{count[2]}+</h1>
-          <p className="text-4xl font-semibold">Digital Classes</p>
-        </div>
-        <div className="w-full md:w-[48%] p-6 border border-gray-300 rounded-[3rem] text-center mb-2">
-          <h1 className="text-5xl font-bold">{count[3]}+</h1>
-          <p className="text-4xl font-semibold">Library Resources</p>
-        </div>
-      </div>
-      <div className="flex justify-center mt-4 md:mb-30">
-        <Link to="/facilities">
-          <button className="w-50 bg-orange-400 p-2 rounded-lg text-white font-semibold">
-            Facilities
-          </button>
-        </Link>
-      </div>
+  {/* Facilities Grid */}
+  <div ref={sectionRef} className="flex flex-wrap justify-center gap-4 p-4">
+    {/* Faculties */}
+    <div className="w-full sm:w-[48%] p-4 md:p-6 border border-gray-300 rounded-[3rem] text-center mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold">{count[0]}+</h1>
+      <p className="text-2xl md:text-4xl font-semibold">Faculties</p>
+    </div>
+
+    {/* Students */}
+    <div className="w-full sm:w-[48%] p-4 md:p-6 border border-gray-300 rounded-[3rem] text-center mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold">{count[1]}+</h1>
+      <p className="text-2xl md:text-4xl font-semibold">Students</p>
+    </div>
+
+    {/* Digital Classes */}
+    <div className="w-full sm:w-[48%] p-4 md:p-6 border border-gray-300 rounded-[3rem] text-center mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold">{count[2]}+</h1>
+      <p className="text-2xl md:text-4xl font-semibold">Digital Classes</p>
+    </div>
+
+    {/* Library Resources */}
+    <div className="w-full sm:w-[48%] p-4 md:p-6 border border-gray-300 rounded-[3rem] text-center mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold">{count[3]}+</h1>
+      <p className="text-2xl md:text-4xl font-semibold">Library Resources</p>
+    </div>
+  </div>
+
+  {/* Facilities Button */}
+  <div className="flex justify-center mt-6 mb-6 md:mt-10 pt-6 md:pt-12">
+    <Link to="/facilities">
+      <button className="w-40 md:w-50 bg-orange-400 p-2 md:p-3 rounded-lg text-white font-semibold text-lg md:text-xl hover:bg-orange-500 transition-colors">
+        Facilities
+      </button>
+    </Link>
+  </div>
+</div>
     </>
   );
 }

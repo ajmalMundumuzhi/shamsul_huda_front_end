@@ -7,7 +7,7 @@ export function Header() {
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex-shrink-0">
-              <img className="h-10" src='/public/images/logo.png' alt="Logo" />
+              <img className="h-10" src='/images/shia_logo.png' alt="Logo" />
             </div>
 
             {/* Navbar */}
@@ -38,20 +38,20 @@ export function Header() {
         <a href="">
           <div className="item flex flex-row items-center mx-4">
             <i className="fa-brands fa-whatsapp text-4xl mr-2"></i>
-            <span className="text-sm">Whatsapp : +91 86060 71078</span>
+            <span className="text-sm">Whatsapp : +91 8281 536 145</span>
           </div>
         </a>
         <div className="item flex flex-row items-center mx-4">
           <i className="fa-solid fa-phone text-2xl mr-2"></i>
-          <span className="text-sm">Mobile : +91 9745804605</span>
+          <span className="text-sm">Mobile : +91 0495 2351534</span>
         </div>
         <div className="item flex flex-row items-center mx-4">
           <i className="fa-solid fa-tty text-3xl mr-2"></i>
-          <span className="text-sm">Telephone : +91 0000000000</span>
+          <span className="text-sm">Phone : +91 8281 536 145</span>
         </div>
         <div className="item flex flex-row items-center mx-4">
           <i className="fa-regular fa-envelope text-2xl mr-2"></i>
-          <span className="text-sm">Email : shamsulhuda@gmail.com</span>
+          <span className="text-sm">Email : shamsulhudaacademy@yahoo.com</span>
         </div>
       </div>
     </>
