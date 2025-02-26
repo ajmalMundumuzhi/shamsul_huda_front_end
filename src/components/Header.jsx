@@ -114,7 +114,7 @@ export function Header() {
       </header>
 
       {/* Shine section - Hide on mobile */}
-      <div className="shine md:w-full h-16 bg-gradient-to-r from-white via-yellow-300 to-white bg-[length:200%] border-2 border-yellow-300 rounded-b-lg shadow-[0_0_20px_rgba(200,200,100,1)] animate-shining flex-row justify-between items-center text-black font-bold text-xl hidden md:flex">
+      {/* <div className="shine md:w-full h-16 bg-gradient-to-r from-white via-yellow-300 to-white bg-[length:200%] border-2 border-yellow-300 rounded-b-lg shadow-[0_0_20px_rgba(200,200,100,1)] animate-shining flex-row justify-between items-center text-black font-bold text-xl hidden md:flex">
         <a
           href="https://wa.me/918281536145"
           target="_blank"
@@ -136,7 +136,7 @@ export function Header() {
           <i className="fa-regular fa-envelope text-2xl mr-2"></i>
           <span className="text-sm">Email : shamsulhudaacademy@yahoo.com</span>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }
