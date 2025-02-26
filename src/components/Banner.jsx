@@ -4,11 +4,10 @@ export function Banner () {
         <>
         <div className="grid md:h-screen md:grid-cols-12" style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent), url('/images/shia.JPG')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
           <div className="col-span-12">
-            <h1 className="w-11/12 md:w-8/12 text-4xl pt-20 md:text-7xl text-white font-bold font-serif md:p-3 md:pt-40">Shamsul Huda Islamic Academy</h1>
+            <h1 className="w-12/12 md:w-8/12 text-4xl pt-20 md:text-7xl text-white font-bold font-[Poppins] md:p-3 md:pt-40">Shamsul Huda Islamic Academy</h1>
 <p className="w-8/12 max-w-2xl font-normal text-white 00 text-justify p-3 pt-8 md:pt-10">
   shamsul huda islamic academy, a graduate institute affiliated to darul huda islamic university kerala, is a prestigious centre of islamic higher learning founded upon the philosophy of imparting islamic education combined with modern curriculum and moral upbringing. 
 </p>
-
             <a href="#counter"><button className="text-white p-3 m-3 bg-amber-700 rounded-2xl">Explore</button></a>
           </div>
         </div>
